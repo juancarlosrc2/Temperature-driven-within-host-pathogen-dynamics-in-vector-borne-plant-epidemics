@@ -1,0 +1,37 @@
+# Temperature-driven within-host pathogen dynamics in vector-borne plant epidemics
+===
+
+## Overview
+
+This repository contains the code and processed data used in the study of temperature-driven within-host pathogen dynamics in vector-borne plant epidemics.
+
+The goal of this project is to analyze how environmental temperature influences pathogen development and transmission dynamics in plant disease systems.
+
+---
+
+## Repository structure
+
+- `Results.ipynb` – main notebook with simulations, analysis, and figures  
+- `vector_borne_functions.py` – core model functions used in the simulations  
+- `real_data/` – processed datasets used in the analysis (raw NetCDF files are excluded due to size limitations)  
+- `figures/` – figures generated for the manuscript  
+
+---
+
+## Data
+
+Due to size limitations imposed by GitHub, raw NetCDF (`.nc`) climate datasets are not included in this repository.
+
+Only processed datasets required to reproduce the results are provided.
+
+If needed, raw data can be obtained from external sources (e.g. CHELSA climate database).
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SrJuan212/Temperature-driven-within-host-pathogen-dynamics-in-vector-borne-plant-epidemics.git
+cd Temperature-driven-within-host-pathogen-dynamics-in-vector-borne-plant-epidemics

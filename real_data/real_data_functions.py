@@ -264,6 +264,36 @@ def Vector_borne_ms(parameters,initial_conditions,T_t,n,day_fraction,N_H,N_v):
     g_t = daily_mean_arrays(g_t,day_fraction)
     """
 
+    # number of full days
+    n_days = len(f_t) // 24
+
+
+
+    f_t = f_t[:n_days * 24].reshape(n_days, 24)
+
+    daily_f = np.empty(n_days)
+
+    for i in range(n_days):
+        s = 0.0
+        for j in range(24):
+            s += f_t[i, j]
+        daily_f[i] = s / 24.0
+    f_t = daily_f
+
+
+    g_t = g_t[:n_days * 24].reshape(n_days, 24)
+
+    daily_g = np.empty(n_days)
+
+    for i in range(n_days):
+        s = 0.0
+        for j in range(24):
+            s += g_t[i, j]
+        daily_g[i] = s / 24.0
+    g_t = daily_g
+
+
+
     f_t = np.array([x for x in f_t for _ in range(day_fraction)])
     g_t = np.array([x for x in g_t for _ in range(day_fraction)])
 
