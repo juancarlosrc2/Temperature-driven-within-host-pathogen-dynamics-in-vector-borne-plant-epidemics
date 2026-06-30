@@ -125,17 +125,23 @@ A permanent archival version of the repository is available through Zenodo:
 
 Please cite the accompanying manuscript when using this code or data:
 
-> Rodríguez-Cabanillas, J. C., Matías, M. A., and Giménez-Romero, À. *A mechanistic framework linking within-host pathogen progression to vector-mediated transmission under climate forcing*. Citation details to be added upon publication.
-
-Please also cite the archived software release using the citation information provided by Zenodo.
+> Rodríguez-Cabanillas, J. C., Matías, M. A., and Giménez-Romero, À. *A mechanistic framework linking within-host pathogen progression to vector-mediated transmission under climate forcing*...
 
 ## License
 
-This repository is distributed under the GNU Affero General Public License v3.0. See `LICENSE` for the full terms.
+This repository is distributed under the GNU General Public License v3.0. See `LICENSE` for the full terms.
 
 ## Contact
 
 For questions about the model or analyses, contact:
+
+**Juan Carlos Rodríguez-Cabanillas**
+Institute for Cross-disciplinary Physics and Complex Systems (IFISC, UIB_CSIC)
+`juancarlosrc@ifisc.uib-csic.es`
+
+**Manuel A. Matías**
+Institute for Cross-disciplinary Physics and Complex Systems (IFISC, UIB_CSIC)
+`manuel@ifisc.uib-csic.es`
 
 **Àlex Giménez-Romero**  
 Centro de Estudios Avanzados de Blanes (CEAB-CSIC)  
