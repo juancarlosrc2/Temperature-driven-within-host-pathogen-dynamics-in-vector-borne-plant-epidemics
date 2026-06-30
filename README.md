@@ -136,11 +136,11 @@ This repository is distributed under the GNU General Public License v3.0. See `L
 For questions about the model or analyses, contact:
 
 **Juan Carlos Rodríguez-Cabanillas**
-Institute for Cross-disciplinary Physics and Complex Systems (IFISC, UIB_CSIC)
+Institute for Cross-disciplinary Physics and Complex Systems (IFISC, UIB-CSIC)
 `juancarlosrc@ifisc.uib-csic.es`
 
 **Manuel A. Matías**
-Institute for Cross-disciplinary Physics and Complex Systems (IFISC, UIB_CSIC)
+Institute for Cross-disciplinary Physics and Complex Systems (IFISC, UIB-CSIC)
 `manuel@ifisc.uib-csic.es`
 
 **Àlex Giménez-Romero**  
